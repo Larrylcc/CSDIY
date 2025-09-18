@@ -4,8 +4,26 @@ body {
 
 .odd,
 .even {
-    width: 110px;
+    width: 90px;
     height: 150px;
+    font: 40px "Tahoma";
     background-color: #eeeff2;
-    margin: 2%;
+    margin: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-left: dotted 10px #D0D0FF;
+    cursor: pointer;
+}
+
+.odd:hover,
+.even:hover {
+    background-color: yellow;
+    color: goldenrod;
+}
+
+#last {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 5px;
 }
