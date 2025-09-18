@@ -1,5 +1,11 @@
 body {
+    display: flex;
+}
+
+.odd,
+.even {
     width: 110px;
     height: 150px;
-
+    background-color: #eeeff2;
+    margin: 2%;
 }
