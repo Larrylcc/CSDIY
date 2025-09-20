@@ -22,8 +22,9 @@ body {
 }
 
 #last {
-    width: 96px;
-    height: 96px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
     background-color: #687291;
     font: 40px "Tahoma";
     margin: 2% auto;
